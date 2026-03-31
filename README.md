@@ -8,6 +8,8 @@ To use it you need install python
 
 ```bash
 winget install python
+```
+
 
 Next now you can install release .py 
 
