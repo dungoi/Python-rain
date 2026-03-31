@@ -10,7 +10,6 @@ try:
 except OSError:
     RONG = 100
     CAO = 50
-
 SO_LUONG_HAT_MUA = 90 # Điều chỉnh mật độ mưa tại đây (tăng số này để mưa dày hơn)
 # Tốc độ khung hình (sps) là 0.0005s, tương đương 2000 FPS (giá trị rất cao)
 TOC_DO_KHUNG_HINH = 0.0005 # Đã đặt theo yêu cầu
@@ -101,7 +100,7 @@ def main():
 
     an_con_tro()
 
-    print(f"Mô phỏng Mưa Terminal (RGB Color). FPS: {1/TOC_DO_KHUNG_HINH:.0f}. Kích thước: {RONG}x{CAO}. Nhấn Ctrl+C để thoát.")
+    print(f"Python-rain . FPS: {1/TOC_DO_KHUNG_HINH:.0f}. Size: {RONG}x{CAO}. Ctrl+C to exit.")
     time.sleep(1)
     
     try:
@@ -140,7 +139,7 @@ def main():
         hien_con_tro()
         # Đảm bảo terminal được làm sạch khi kết thúc
         os.system('cls' if os.name == 'nt' else 'clear') 
-        print("\n\nĐã thoát chương trình mô phỏng mưa.")
+        print("\n\n Exit python-rain.")
 
 if __name__ == "__main__":
     main()
