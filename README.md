@@ -6,7 +6,7 @@ Python-rain can do it
 
 To use it you need install python 
 
-Winget install python
+`winget install python`
 
 Next now you can install release .py 
 
