@@ -4,7 +4,11 @@ if you want have rain in terminal to make your terminal beautifull
 
 Python-rain can do it 
 
+Linux and win can use that 
+
 To use it you need install python 
+
+Windows
 
 ```bash
 & winget install python
@@ -12,8 +16,8 @@ To use it you need install python
 and 
 
 ```bash
-& git clone [https://github.com/cathander/Python-rain.git](https://github.com/cathander/Python-rain.git)
-cd Python-rain
+& curl.exe -L -o rain.py https://github.com/dungoi/Python-rain/releases/download/Terminal/rain.py
+
 ```
 
 ```bash
@@ -27,6 +31,7 @@ Next now you can install release .py
 ```bash
 & python where-rain.py or click rain.py choice python
 ```
+
 
 End
 
