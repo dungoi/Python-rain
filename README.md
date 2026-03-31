@@ -30,11 +30,4 @@ Next now you can install release .py
 
 End
 
-
-
-
-
-Open the File Explorer and click to use 
-
-
 Updating ....
