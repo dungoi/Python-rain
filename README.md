@@ -6,7 +6,8 @@ Python-rain can do it
 
 To use it you need install python 
 
-`winget install python`
+```bash
+winget install python
 
 Next now you can install release .py 
 
